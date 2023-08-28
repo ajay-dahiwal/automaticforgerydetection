@@ -3,6 +3,7 @@
 # these settings.
 [context.production]
   publish = "output/"
+  cammand = "python app.py"
   command = "streamlit run app.py"
 
 # Deploy Preview context: all deploys generated from
